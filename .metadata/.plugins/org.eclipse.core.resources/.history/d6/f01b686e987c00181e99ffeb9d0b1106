@@ -1,0 +1,29 @@
+
+public class SingletonExample {
+
+	static private SingletonExample Ref;
+
+	int abc = 123;
+
+	private SingletonExample() {
+
+	}
+
+	public static SingletonExample createSomething() {
+
+		if (Ref == null) {
+
+			Ref = new SingletonExample();
+
+		}
+
+		return Ref;
+
+	}
+
+	@Override
+	public String toString() {
+		return "SingletonExample [abc=" + abc + "]";
+	}
+
+}

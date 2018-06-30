@@ -1,0 +1,16 @@
+
+public class SpiralRunner {
+
+	public static void main(String[] args) {
+		SpiralMaker test1 = new SpiralMaker();
+		
+		test1.getDigits(9);
+		test1.bottomToTop();
+		test1.spaceMaker(3);
+		test1.a = 9;
+		test1.last = 9;
+		
+		test1.makeSpiral(5);
+	}
+
+}

@@ -1,0 +1,31 @@
+
+public class Runner {
+
+	public static void main(String[] args) {
+
+		SingletonExample sing1 = null;
+		
+		SingletonExample sing2 = null;
+		
+		SingletonExample sing3 = null;
+
+		// sing = new SingletonExample();
+		// Wont work because SingletonExample() is private
+
+		sing1 = SingletonExample.createSomething(1234);
+
+		System.out.println(sing1.toStringNotOverwritten());
+
+		System.out.println(sing1.toString());
+
+		sing2 = SingletonExample.createSomething(5678);
+
+		sing3 = SingletonExample.createSomething(12345678);
+
+		System.out.println(sing.toStringNotOverwritten());
+
+		System.out.println(sing.toString());
+
+	}
+
+}
