@@ -56,6 +56,7 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.qa.MongoDBZips"/>
 			<item value="com.qa.MongoDB"/>
 			<item value="MongoDB.com.qa"/>
 		</list>
@@ -64,6 +65,7 @@
 			<item value="MongoDB"/>
 		</list>
 		<list key="artifactId">
+			<item value="MongoDBZips"/>
 			<item value="MongoDB"/>
 			<item value="com.qa"/>
 		</list>
