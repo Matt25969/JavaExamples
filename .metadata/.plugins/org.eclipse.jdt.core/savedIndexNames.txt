@@ -1,16 +1,2 @@
-INDEX VERSION 1.130+C:\Users\Admin\Desktop\Java Examples\.metadata\.plugins\org.eclipse.jdt.core
-2931296255.index
-384558603.index
-1984867070.index
-1360609037.index
-427523311.index
-1758598280.index
-890195459.index
-4269208602.index
-2408102457.index
-1953149152.index
-4288286757.index
-3666236479.index
-2114253376.index
-911304070.index
-4245152505.index
+INDEX VERSION 1.130+C:\Users\Admin\Desktop\Course Examples Master\JavaExamples\.metadata\.plugins\org.eclipse.jdt.core
+3881931278.index
