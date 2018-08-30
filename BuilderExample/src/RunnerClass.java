@@ -8,7 +8,7 @@ public class RunnerClass {
 
 		Dog d1 = new DogBuilder().name("Bert").buildDog();
 
-		Dog d2 = new DogBuilder().name("Clive").age(5).buildDog();
+		Dog d2 = new DogBuilder().owner("Jeff").name("Clive").age(5).buildDog();
 
 		System.out.println(d.toString());
 

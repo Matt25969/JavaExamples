@@ -1,13 +1,11 @@
 
 public class DogBuilder {
+
 	private String name;
 	private int age = 0;
 	private String owner = "No one";
 	private int numberOfLegs = 4;
 	private String ID = "A0001";
-
-	public DogBuilder() {
-	}
 
 	public Dog buildDog() {
 		return new Dog(name, age, owner, numberOfLegs, ID);

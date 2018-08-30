@@ -10,9 +10,9 @@ public class Logic {
 		firstArray[1][0] = 2;
 
 		for (int i = 0; i < firstArray.length; i++) {
-			for (int j = 0; j < firstArray.length; j++) {
+			for (int j = 0; j < firstArray[i].length; j++) {
 
-				System.out.print(firstArray[i][j]);
+				System.out.print(firstArray[j][i]);
 
 			}
 			System.out.println();

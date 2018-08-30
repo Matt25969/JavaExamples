@@ -24,7 +24,7 @@ public class Dog {
 	}
 
 	public String toString() {
-		return name + age + owner + numberOfLegs + ID;
+		return name + " " + age + " " + owner + " " + numberOfLegs + " " + ID;
 	}
 
 }

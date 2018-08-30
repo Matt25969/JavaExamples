@@ -13,11 +13,12 @@ public class PersonManager {
 		for (Person p : peopleList) {
 			if (p.getName().equals(search)) {
 				return "Found the Person";
+
 			}
+
 		}
 
 		return "Did not find anyone";
 
 	}
-
 }
