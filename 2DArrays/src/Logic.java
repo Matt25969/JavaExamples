@@ -12,7 +12,7 @@ public class Logic {
 		for (int i = 0; i < firstArray.length; i++) {
 			for (int j = 0; j < firstArray[i].length; j++) {
 
-				System.out.print(firstArray[j][i]);
+				System.out.print("[ ]");
 
 			}
 			System.out.println();
