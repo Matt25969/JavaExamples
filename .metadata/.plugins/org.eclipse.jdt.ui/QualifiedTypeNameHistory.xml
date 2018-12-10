@@ -18,9 +18,11 @@
 <fullyQualifiedTypeName name="java.lang.System"/>
 <fullyQualifiedTypeName name="java.util.Scanner"/>
 <fullyQualifiedTypeName name="PersonManager"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="Vehicle"/>
 <fullyQualifiedTypeName name="Car"/>
 <fullyQualifiedTypeName name="Bus"/>
 <fullyQualifiedTypeName name="Garage"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="com.qa.Delegate.Delegate"/>
+<fullyQualifiedTypeName name="com.qa.Delegate.TempInterface"/>
 </qualifiedTypeNameHistroy>
