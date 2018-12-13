@@ -65,6 +65,11 @@ public class Logic {
 
 		List<Integer> squaresList = numbers.stream().map(i -> i * i).distinct().collect(Collectors.toList());
 
+		numbers.stream().distinct().forEach(System.out::println);
+
+		System.out.println("-------------------------------------------------------------");
+
+		System.out.println("-------------------------------------------------------------");
 		System.out.println("-------------------------------------------------------------");
 		System.out.println("SquaresList - Before it has been sorted");
 		System.out.println("-------------------------------------------------------------");

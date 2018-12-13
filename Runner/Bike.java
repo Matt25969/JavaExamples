@@ -12,7 +12,9 @@ public class Bike extends Vehicle {
 	}
 
 	public String getName() {
+
 		return name;
+
 	}
 
 	public void setName(String name) {
