@@ -2,10 +2,12 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="com.qa"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="BlackJackTDD"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -56,20 +58,10 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
-			<item value="com.qa.Delegate"/>
-			<item value="com.qa.MongoDBZips"/>
-			<item value="com.qa.MongoDB"/>
-			<item value="MongoDB.com.qa"/>
 		</list>
 		<list key="groupId">
-			<item value="com.qa"/>
-			<item value="MongoDB"/>
 		</list>
 		<list key="artifactId">
-			<item value="Delegate"/>
-			<item value="MongoDBZips"/>
-			<item value="MongoDB"/>
-			<item value="com.qa"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

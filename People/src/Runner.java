@@ -1,33 +1,44 @@
+import java.util.Scanner;
 
 public class Runner {
 
 	public static void main(String[] args) {
 
-		Person p1 = new Person("Bert", 23, "Farmer");
+		while (true) {
 
-		Person p2 = new Person("Jeff", 29, "Builder");
+			Scanner sc = new Scanner(System.in);
 
-		PersonManager pm1 = new PersonManager();
+			String input = sc.next();
 
-		pm1.getPeopleList().add(p1);
+			System.out.println(input);
 
-		pm1.getPeopleList().add(p2);
+			Person p1 = new Person("Bert", 23, "Farmer");
 
-		for (Person p : pm1.getPeopleList()) {
+			Person p2 = new Person("Jeff", 29, "Builder");
 
-			System.out.println(p);
+			PersonManager pm1 = new PersonManager();
 
-		}
+			pm1.getPeopleList().add(p1);
 
-		System.out.println(pm1.searchForName("Bert"));
+			pm1.getPeopleList().add(p2);
 
-		pm1.getPeopleList().remove(0);
+			for (Person p : pm1.getPeopleList()) {
 
-		pm1.getPeopleList().remove(p2);
+				System.out.println(p);
 
-		for (Person p : pm1.getPeopleList()) {
+			}
 
-			System.out.println(p);
+			System.out.println(pm1.searchForName("Bert"));
+
+			pm1.getPeopleList().remove(0);
+
+			pm1.getPeopleList().remove(p2);
+
+			for (Person p : pm1.getPeopleList()) {
+
+				System.out.println(p);
+
+			}
 
 		}
 
